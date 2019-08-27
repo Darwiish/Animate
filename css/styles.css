@@ -1,0 +1,48 @@
+/* styles.css */
+
+body {
+    text-align: center;
+}
+
+
+div {
+    width: 100px;
+    height: 100px;
+     /* for position properties to work in jQuery animate, you need to make sure the element being animated has a position property defined */
+    position: relative;
+}
+
+#orangeBoxId {
+    background-color: orange;
+     width: 100px;
+    height: 100px;
+     /* for position properties to work in jQuery animate, you need to make sure the element being animated has a position property defined */
+    position: relative;
+}
+
+#greenBoxId {
+    background-color: palegreen;
+     width: 100px;
+    height: 100px;
+     /* for position properties to work in jQuery animate, you need to make sure the element being animated has a position property defined */
+    position: relative;
+}
+
+#redBoxId {
+    background-color: red;
+     width: 100px;
+    height: 100px;
+     /* for position properties to work in jQuery animate, you need to make sure the element being animated has a position property defined */
+    position: relative;
+
+}
+
+#blueBoxId {
+    background-color: dodgerblue;
+     width: 100px;
+    height: 100px;
+     /* for position properties to work in jQuery animate, you need to make sure the element being animated has a position property defined */
+    position: relative;
+}
+
+
