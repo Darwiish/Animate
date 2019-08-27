@@ -1,36 +1,9 @@
-  $('#').click(function() {
-        $('.').animate({
-            left: "-=40px",
-            fontSize: "+=2px"
-        }, function() {
-            // animation is complete
+
+    $(".modal1").click(function() {
+        var animation = $(this).attr("data-animation");
+        $(this).addClass(animation).delay(1000).queue(function(next) {
+          $(this).removeClass(animation);
+          next();
         });
-    });
-    
-    $('#').click(function() {
-        $('.').animate({
-            top: "-=40px",
-            opacity: "+=0.1"
-        }, function() {
-            // animation is complete
-        });
-    });
-    
-    $('#').click(function() {
-        $('.').animate({
-            left: "+=40px",
-            fontSize: "-=2px"
-        }, function() {
-            // animation is complete
-        });
-    });
-    
-    $('#').click(function() {
-        $('.').animate({
-            top: "+=40px",
-            opacity: "-=0.1"
-        }, function() {
-            // animation is complete
-        });
-    });
+      });
     
